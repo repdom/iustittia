@@ -1,0 +1,12 @@
+{
+  "iustitia": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "iustitia",
+    "password": "",
+    "name": "iustitia",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

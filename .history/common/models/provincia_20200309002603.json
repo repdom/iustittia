@@ -1,0 +1,29 @@
+{
+  "name": "Provincia",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "muerte": {
+      "type": "number",
+      "required": true
+    },
+    "no-muerte": {
+      "type": "number",
+      "required": true
+    },
+    "narcotrafico": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
