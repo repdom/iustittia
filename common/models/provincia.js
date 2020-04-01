@@ -8,7 +8,9 @@ module.exports = function(Provincia) {
                     // console.log(Provincia.find({}));
                     console.log(err);
                 } else {
-                    cb(err, result);
+                    let provincias = {};
+                    provincias.provincias = result;
+                    cb(err, provincias);
                 }
                 // console.log(result);
             });
