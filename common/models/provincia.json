@@ -13,7 +13,7 @@
       "type": "number",
       "required": true
     },
-    "no-muerte": {
+    "no_muerte": {
       "type": "number",
       "required": true
     },
