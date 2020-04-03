@@ -16,7 +16,7 @@
       "length": 4294967295,
       "precision": null,
       "scale": null,
-      "iustitia": {
+      "mysql": {
         "columnName": "foto2",
         "dataType": "longtext",
         "dataLength": 4294967295,

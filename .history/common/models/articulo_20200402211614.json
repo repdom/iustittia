@@ -12,18 +12,7 @@
     },
     "cuerpo": {
       "type": "string",
-      "required": true,
-      "length": 4294967295,
-      "precision": null,
-      "scale": null,
-      "iustitia": {
-        "columnName": "foto2",
-        "dataType": "longtext",
-        "dataLength": 4294967295,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "Y"
-      }
+      "required": true
     },
     "tipo_crimen": {
       "type": "string"
