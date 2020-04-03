@@ -16,5 +16,9 @@
   "Provincia": {
     "dataSource": "iustitia",
     "public": true
+  },
+  "articulo": {
+    "dataSource": "iustitia",
+    "public": true
   }
 }

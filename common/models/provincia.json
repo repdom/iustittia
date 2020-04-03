@@ -22,7 +22,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "articulos": {
+      "type": "hasMany",
+      "model": "articulo",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

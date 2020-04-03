@@ -1,0 +1,29 @@
+{
+  "name": "articulo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "cuerpo": {
+      "type": "string",
+      "required": true
+    },
+    "tipo_crimen": {
+      "type": "string"
+    },
+    "long_date": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
